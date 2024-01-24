@@ -96,7 +96,7 @@ class _MyPageState extends State<MyPage> {
           ),
           Column(
             children: [
-              const SizedBox(height: 20),  // Déplacez cette ligne ici
+              const SizedBox(height: 20),  
               ElevatedButton(
                 onPressed: () {
                   Allume();
@@ -107,7 +107,7 @@ class _MyPageState extends State<MyPage> {
           ),
           Column(
             children: [
-              const SizedBox(height: 20),  // Déplacez cette ligne ici
+              const SizedBox(height: 20),  
               ElevatedButton(
                 onPressed: () {
                   Eteindre();
@@ -137,7 +137,6 @@ class _MyPageState extends State<MyPage> {
   // Fonction pour actualiser les données
   void refreshData() {
     setState(() {
-      // Mettez à jour les données ici
       TempData();
       LightData2();
     });
